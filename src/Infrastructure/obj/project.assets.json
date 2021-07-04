@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "ApplicationCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ApplicationCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApplicationCore.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ApplicationCore/1.0.0": {
+      "type": "project",
+      "path": "../ApplicationCore/ApplicationCore.csproj",
+      "msbuildProject": "../ApplicationCore/ApplicationCore.csproj"
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Shared.csproj",
+      "msbuildProject": "../Shared/Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "ApplicationCore >= 1.0.0",
+      "Shared >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/amit/.nuget/packages/": {}
@@ -31,7 +69,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/amit/Source/repos/SportsStoreOnWeb/src/ApplicationCore/ApplicationCore.csproj": {
+              "projectPath": "/home/amit/Source/repos/SportsStoreOnWeb/src/ApplicationCore/ApplicationCore.csproj"
+            },
+            "/home/amit/Source/repos/SportsStoreOnWeb/src/Shared/Shared.csproj": {
+              "projectPath": "/home/amit/Source/repos/SportsStoreOnWeb/src/Shared/Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
