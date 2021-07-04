@@ -1,0 +1,17 @@
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/bin/Debug/net5.0/SportsStoreOnWeb.Infrastructure.deps.json
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/bin/Debug/net5.0/SportsStoreOnWeb.Infrastructure.dll
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/bin/Debug/net5.0/ref/SportsStoreOnWeb.Infrastructure.dll
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/bin/Debug/net5.0/SportsStoreOnWeb.Infrastructure.pdb
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/bin/Debug/net5.0/SportsStoreOnWeb.Core.dll
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/bin/Debug/net5.0/SportsStoreOnWeb.Shared.dll
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/bin/Debug/net5.0/SportsStoreOnWeb.Shared.pdb
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/bin/Debug/net5.0/SportsStoreOnWeb.Core.pdb
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/obj/Debug/net5.0/SportsStoreOnWeb.Infrastructure.csproj.AssemblyReference.cache
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/obj/Debug/net5.0/SportsStoreOnWeb.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/obj/Debug/net5.0/SportsStoreOnWeb.Infrastructure.AssemblyInfoInputs.cache
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/obj/Debug/net5.0/SportsStoreOnWeb.Infrastructure.AssemblyInfo.cs
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/obj/Debug/net5.0/SportsStoreOnWeb.Infrastructure.csproj.CoreCompileInputs.cache
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/obj/Debug/net5.0/SportsStoreOnWeb.Infrastructure.csproj.CopyComplete
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/obj/Debug/net5.0/SportsStoreOnWeb.Infrastructure.dll
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/obj/Debug/net5.0/ref/SportsStoreOnWeb.Infrastructure.dll
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/obj/Debug/net5.0/SportsStoreOnWeb.Infrastructure.pdb

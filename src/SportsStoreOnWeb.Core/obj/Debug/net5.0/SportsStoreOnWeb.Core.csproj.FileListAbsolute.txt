@@ -1,0 +1,15 @@
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Core/bin/Debug/net5.0/SportsStoreOnWeb.Core.deps.json
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Core/bin/Debug/net5.0/SportsStoreOnWeb.Core.dll
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Core/bin/Debug/net5.0/ref/SportsStoreOnWeb.Core.dll
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Core/bin/Debug/net5.0/SportsStoreOnWeb.Core.pdb
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Core/bin/Debug/net5.0/SportsStoreOnWeb.Shared.dll
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Core/bin/Debug/net5.0/SportsStoreOnWeb.Shared.pdb
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Core/obj/Debug/net5.0/SportsStoreOnWeb.Core.csproj.AssemblyReference.cache
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Core/obj/Debug/net5.0/SportsStoreOnWeb.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Core/obj/Debug/net5.0/SportsStoreOnWeb.Core.AssemblyInfoInputs.cache
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Core/obj/Debug/net5.0/SportsStoreOnWeb.Core.AssemblyInfo.cs
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Core/obj/Debug/net5.0/SportsStoreOnWeb.Core.csproj.CoreCompileInputs.cache
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Core/obj/Debug/net5.0/SportsStoreOnWeb.Core.csproj.CopyComplete
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Core/obj/Debug/net5.0/SportsStoreOnWeb.Core.dll
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Core/obj/Debug/net5.0/ref/SportsStoreOnWeb.Core.dll
+/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Core/obj/Debug/net5.0/SportsStoreOnWeb.Core.pdb

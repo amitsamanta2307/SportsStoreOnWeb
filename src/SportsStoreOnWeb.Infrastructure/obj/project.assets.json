@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "SportsStoreOnWeb.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "SportsStoreOnWeb.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SportsStoreOnWeb.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SportsStoreOnWeb.Core.dll": {}
+        }
+      },
+      "SportsStoreOnWeb.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/SportsStoreOnWeb.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SportsStoreOnWeb.Shared.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SportsStoreOnWeb.Core/1.0.0": {
+      "type": "project",
+      "path": "../SportsStoreOnWeb.Core/SportsStoreOnWeb.Core.csproj",
+      "msbuildProject": "../SportsStoreOnWeb.Core/SportsStoreOnWeb.Core.csproj"
+    },
+    "SportsStoreOnWeb.Shared/1.0.0": {
+      "type": "project",
+      "path": "../SportsStoreOnWeb.Shared/SportsStoreOnWeb.Shared.csproj",
+      "msbuildProject": "../SportsStoreOnWeb.Shared/SportsStoreOnWeb.Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "SportsStoreOnWeb.Core >= 1.0.0",
+      "SportsStoreOnWeb.Shared >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/amit/.nuget/packages/": {}
@@ -31,7 +69,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Core/SportsStoreOnWeb.Core.csproj": {
+              "projectPath": "/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Core/SportsStoreOnWeb.Core.csproj"
+            },
+            "/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Shared/SportsStoreOnWeb.Shared.csproj": {
+              "projectPath": "/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Shared/SportsStoreOnWeb.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

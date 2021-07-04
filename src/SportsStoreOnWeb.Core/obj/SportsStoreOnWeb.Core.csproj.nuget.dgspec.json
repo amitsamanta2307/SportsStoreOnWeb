@@ -25,6 +25,62 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Shared/SportsStoreOnWeb.Shared.csproj": {
+                "projectPath": "/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Shared/SportsStoreOnWeb.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Shared/SportsStoreOnWeb.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Shared/SportsStoreOnWeb.Shared.csproj",
+        "projectName": "SportsStoreOnWeb.Shared",
+        "projectPath": "/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Shared/SportsStoreOnWeb.Shared.csproj",
+        "packagesPath": "/home/amit/.nuget/packages/",
+        "outputPath": "/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/amit/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },

@@ -1652,6 +1652,43 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "SportsStoreOnWeb.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "SportsStoreOnWeb.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SportsStoreOnWeb.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SportsStoreOnWeb.Core.dll": {}
+        }
+      },
+      "SportsStoreOnWeb.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "SportsStoreOnWeb.Core": "1.0.0",
+          "SportsStoreOnWeb.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SportsStoreOnWeb.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SportsStoreOnWeb.Infrastructure.dll": {}
+        }
+      },
+      "SportsStoreOnWeb.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/SportsStoreOnWeb.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SportsStoreOnWeb.Shared.dll": {}
+        }
       }
     }
   },
@@ -6129,6 +6166,21 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "SportsStoreOnWeb.Core/1.0.0": {
+      "type": "project",
+      "path": "../SportsStoreOnWeb.Core/SportsStoreOnWeb.Core.csproj",
+      "msbuildProject": "../SportsStoreOnWeb.Core/SportsStoreOnWeb.Core.csproj"
+    },
+    "SportsStoreOnWeb.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../SportsStoreOnWeb.Infrastructure/SportsStoreOnWeb.Infrastructure.csproj",
+      "msbuildProject": "../SportsStoreOnWeb.Infrastructure/SportsStoreOnWeb.Infrastructure.csproj"
+    },
+    "SportsStoreOnWeb.Shared/1.0.0": {
+      "type": "project",
+      "path": "../SportsStoreOnWeb.Shared/SportsStoreOnWeb.Shared.csproj",
+      "msbuildProject": "../SportsStoreOnWeb.Shared/SportsStoreOnWeb.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6137,7 +6189,8 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.7",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.7",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.7"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.7",
+      "SportsStoreOnWeb.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6164,7 +6217,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/SportsStoreOnWeb.Infrastructure.csproj": {
+              "projectPath": "/home/amit/Source/repos/SportsStoreOnWeb/src/SportsStoreOnWeb.Infrastructure/SportsStoreOnWeb.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
