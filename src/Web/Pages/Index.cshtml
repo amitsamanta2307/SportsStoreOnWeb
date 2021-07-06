@@ -1,7 +1,19 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Products";
 }
 
-<h4>Welcome to SportsStore</h4>
+<div>
+    @if (Model.ProductModel.ProductItems.Any())
+    {
+        @foreach (var productItem in Model.ProductModel.ProductItems)
+        {
+            <div>
+                <h3>@productItem.Name</h3>
+                @productItem.Description
+                <h4>@productItem.Price.ToString("c")</h4>
+            </div>
+        }
+    }
+</div>

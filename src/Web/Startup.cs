@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SportsStoreOnWeb.Infrastructure.Data;
+using SportsStoreOnWeb.Web.Configuration;
 
 namespace Web
 {
@@ -28,6 +29,9 @@ namespace Web
             services.AddRazorPages();
             services.AddDbContext<StoreContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("SportsStoreConnection")));
+
+            services.AddCoreServices(Configuration);
+            services.AddWebServices(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

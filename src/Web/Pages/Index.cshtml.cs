@@ -1,25 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+using SportsStoreOnWeb.Web.Services;
+using SportsStoreOnWeb.Web.ViewModels;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
 
 namespace Web.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private readonly IProductViewModelService _productViewModelService;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public IndexModel(IProductViewModelService productViewModelService)
         {
-            _logger = logger;
+            _productViewModelService = productViewModelService;
         }
 
-        public void OnGet()
-        {
+        public ProductIndexViewModel ProductModel { get; set; } = new ProductIndexViewModel();
 
+        public async Task OnGet()
+        {
+            ProductModel = await _productViewModelService.GetProducts();
         }
     }
 }
