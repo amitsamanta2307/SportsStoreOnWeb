@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "QEg0io9WHqPMScj9t0nAlPZjSHpPM1TljDWmEtKWFIehZ0p9XKhDKOub+V4m8IdRg8DqdeDEZwes5GPiJ6zqmQ==",
+  "dgSpecHash": "TVNxB2H6teQFP+8O3IW+dZL0C0jdQo1/hAKAfVDM9dNapgnfZGgMEiIh/pKt8coDniGXBMm93ZSUBJTL6I2pmA==",
   "success": true,
   "projectFilePath": "/home/amit/Source/repos/SportsStoreOnWeb/src/ApplicationCore/ApplicationCore.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/amit/.nuget/packages/fluentvalidation/10.2.3/fluentvalidation.10.2.3.nupkg.sha512",
+    "/home/amit/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
+    "/home/amit/.nuget/packages/system.text.json/5.0.2/system.text.json.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
